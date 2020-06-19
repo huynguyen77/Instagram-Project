@@ -6,10 +6,10 @@ body{
 }
 
 .container{
-	width: 1000px;
+	width: 995px;
 	min-height: 100px;
 	display: grid;
-	grid-template-columns: auto 295px;
+	grid-template-columns: 700px 295px;
 	margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ body{
 	grid-column: 1/3;
 }
 
-.main-content{
+.content{
 	margin-right: 28px;
 }
 
@@ -26,4 +26,16 @@ body{
 	border: 1px solid #EEE;
 	background: #FFF;
 	border-radius: 5px;
+}
+
+.slidebar{
+	padding: 16px;
+	margin-bottom: 24px;
+	border: 1px solid #EEE;
+	border-radius: 5px;
+	background: #FFF;
+}
+
+.slidebar .img-story{
+	padding: 0 5px;
 }
