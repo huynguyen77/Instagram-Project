@@ -22,7 +22,7 @@
 
 .follows .button-follow{
 	border: none;
-	background: #FFF;
+	background: none;
 	color: #0095F6;
 	font-size: 12px;
 }
